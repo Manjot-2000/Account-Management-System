@@ -3,8 +3,6 @@
 
 * In Checkings account, there is a special case for withdrawal where a flat fee is defined that is applicable to every transaction that happens for this account type.     For example, if a person wants to withdraw $50, they will be charged with a flat fee of $1.50.
 
-* In Checkings account, there is a special case for withdrawal where a flat fee is defined that is applicable to every transaction that happens for this account type.     For example, if a person wants to withdraw $50, they will be charged with a flat fee of $1.50.
-
 * In Savings account, there is a special business logic for depositing an amount. An additional field of interest rate is added that the bank can set, and it will be       added to the amount to be deposited. For example, if a person wants to deposit $100 and the interest rate is set to 2%, then the total amount that will be deposited in   this account will be $100 + 2% of $100.
 
 Trust account has five special behaviors. 
