@@ -7,7 +7,7 @@ Trust_Account :: Trust_Account(std :: string name, double balance, double int_ra
 bool Trust_Account :: deposit(double amount)
 {
     if(amount >= 5000)
-        amount += 50;         // 50 Rupee bonus on depositing amount which is greater than 5000
+        amount += 50;         // $50 bonus on depositing amount which is greater than $5000
     return Savings_account :: deposit(amount);    
 }
 
