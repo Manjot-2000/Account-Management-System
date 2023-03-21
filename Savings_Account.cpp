@@ -13,7 +13,7 @@ bool Savings_account :: deposit(double amount) {
 void Savings_account :: print(std :: ostream &os) const
 {
     Account :: print(os);
-    os << "  at : " << this -> interest_rate << "%]";
+    os << "  at : " << this -> interest_rate << "%] type : Savings Account";
 }
 
 bool Savings_account :: withdraw(double amount)
